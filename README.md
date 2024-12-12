@@ -6,6 +6,9 @@ docker compose up -d
 To run tests:
 make test
 
+To deploy on Docker:
+make docker-build
+
 To deploy on SAM:
 make serverless-build
 sam deploy --guided
